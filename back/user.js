@@ -4,7 +4,7 @@ const jwt =require("jsonwebtoken")
 const schema=mongoose.Schema({
    
     numero:{
-        type:Number,required:true
+        type:String,required:true
     },
     password:{type:String,required:true}
     ,Token:{
